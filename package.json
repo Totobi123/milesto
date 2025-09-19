@@ -1,0 +1,28 @@
+{
+  "name": "miles-crypto-banking",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "banking",
+    "flutterwave",
+    "payment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Miles - Secure Crypto-to-Bank Gateway with Flutterwave Integration",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "serverless-http": "^4.0.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.38.1"
+  }
+}
